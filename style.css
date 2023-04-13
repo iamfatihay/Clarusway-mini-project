@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+header,footer{
+    background-color: rgb(46, 43, 44);
+    border-bottom: 3px solid rgb(160, 53, 128);
+    /* height: 5rem; */
+}
+span{
+    color: rgb(160, 53, 128);
+}
+li{
+    list-style: none;
+    margin: 0.5rem 1rem; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    color: rgb(160, 53, 128);
+}
+.resim{
+    background-image: url("images/showcase.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+}
+.icons h5{
+    color: black;
+    margin-top: 1rem;
+}
+footer{  
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;     
+}
+.blok{
+    background-color: rgb(209, 214, 214);
+    padding: 2rem;
+    border: 3px solid white;
+}
+h1,h2,h3,h4,h5{
+    color: white;
+}
+label{
+    color: white;
+}
